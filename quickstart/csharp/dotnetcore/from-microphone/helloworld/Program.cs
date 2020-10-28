@@ -21,7 +21,7 @@ namespace helloworld
             // Creates a speech recognizer.
             using (var recognizer = new SpeechRecognizer(config))
             {
-                Console.WriteLine("Say something...");
+                Console.WriteLine("Say something....");
 
                 // Starts speech recognition, and returns after a single utterance is recognized. The end of a
                 // single utterance is determined by listening for silence at the end or until a maximum of 15
